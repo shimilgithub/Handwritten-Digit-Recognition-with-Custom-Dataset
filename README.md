@@ -12,6 +12,8 @@ This project focuses on implementing and testing a handwriting recognition model
   - Jupyter Notebook (for documentation and testing)
 
 ## Dataset Used
+- **dataset:**
+  - MNIST image dataset
 - **Custom MNIST Samples:**
   - 10 digits (0-9) with five handwritten images per digit.
   - Image specifications:
@@ -28,7 +30,7 @@ project-directory/
 ├── module5-3.py      # Script for testing the handwriting recognition
 ├── module5-3.ipynb   # Jupyter Notebook to showcase your work
 ├── Custom MNIST Samples/           # Directory containing your custom handwritten images for testing
-├── datase/ #Directory containing MNIST images for training
+├── dataset/ #Directory containing MNIST images for training
 └── README.md         # Project documentation
 ```
 
@@ -40,7 +42,7 @@ project-directory/
 
 ### Steps
 1. **Set Up Handwritten Images:**
-   - Place your custom handwritten images (five per digit) in the `images/` directory.
+   - Place your custom handwritten images (five per digit) in the `Custom MNIST Samples/` directory.
    - Ensure they follow the naming convention (`n_m.png`).
 
 2. **Complete the MNIST Class:**
